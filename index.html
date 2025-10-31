@@ -16,7 +16,17 @@
         <div class="todo-app">
             <!-- Title -->
             <h1>To-Do List App</h1>
-
+            <div class="stat-container">
+                <div class="details">
+                    <h3>Keep it Up!</h3>
+                    <div id="progressbar">
+                        <div id="progress"></div>
+                    </div>
+                </div>
+                <div class="stats-number">
+                    <p id="numbers">0 / 0</p>
+                </div>
+            </div>
             <!-- Input form for adding tasks -->
             <form class="input-area">
                 <input type="text" id="task-input" placeholder="Add a new task...">
@@ -27,7 +37,7 @@
             <div class="todos-container">
                 <ul id="task-list"></ul>
                 <!-- Placeholder image shown when there are no tasks -->
-                <img class="empty-image" src="./images/images.svg" alt="empty">
+                <img class="empty-image" src="./images/emptyimage1.svg" alt="empty">
             </div>
         </div>
     </div>
